@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --paper:#faf9f6; --ink:#24222b; --muted:#77747f; --line:#e9e6e2; --violet:#7055c8; --lavender:#f0ecfb; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial, Helvetica, sans-serif; }
+button,input,select,textarea { font:inherit; }
+button { cursor:pointer; }
+::selection { background:#ddd3fa; }
+:focus-visible { outline:3px solid #8a73db; outline-offset:3px; }

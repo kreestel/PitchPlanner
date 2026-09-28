@@ -1,0 +1,29 @@
+{
+  "name": "pitchplanner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "predev": "tailwindcss -i app/globals.css -o app/tailwind.generated.css --minify",
+    "prebuild": "tailwindcss -i app/globals.css -o app/tailwind.generated.css --minify"
+  },
+  "dependencies": {
+    "next": "^15.5.9",
+    "openai": "^5.20.0",
+    "pdfjs-dist": "^5.4.149",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2"
+  }
+}
