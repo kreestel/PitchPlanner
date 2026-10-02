@@ -1,6 +1,20 @@
 # PitchPlanner
 
-PitchPlanner turns text from presentation PDFs and your own slide notes into an editable, slide-by-slide speaking script. Each PDF page is one slide. PDF text extraction and page previews happen in your browser; slide images are not sent to the AI or interpreted. The prototype supports up to 20 pages and 10 MB per PDF.
+### Your slides are done. Now what the hell do you say?
+
+We've all made the slides and then sat there like:
+
+*"Okay... now what do I actually say?"*
+
+So I made **PitchPlanner**.
+
+Upload your presentation PDF, tell it who you're presenting to, how long you have, and what kind of tone you want, and it'll give you a speaking script for every slide.
+
+No more reading your entire slide out loud, or forgetting what you wanted to say halfway through, or making a 20-slide presentation and having absolutely no idea how to present it
+
+Each slide gets its own script, so you know what to say. (I hope so)
+
+**Try it** **[PitchPlanner](https://pitchplannerr.netlify.app/)**
 
 ## Run locally
 
