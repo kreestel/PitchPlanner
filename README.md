@@ -23,7 +23,7 @@ Each slide gets its own script, so you know what to say. (I hope so)
 3. Copy `.env.example` to `.env.local`.
    - PowerShell: `Copy-Item .env.example .env.local`
    - macOS/Linux: `cp .env.example .env.local`
-4. Add your API key to `OPENAI_API_KEY` in `.env.local`. Set `OPENAI_MODEL` to a model available to your API account (the default is `gpt-4.1-mini`). AI generation stays disabled until a key is configured.
+4. Add your API key to `OPENAI_API_KEY` in `.env.local`. Set `OPENAI_MODEL` to a model available to your API account (the default is `gpt-6-luna`). AI generation stays disabled until a key is configured.
 5. Run `npm run dev` (or `pnpm dev`) and open http://localhost:3000.
 
 The API key is read only by the server. Do not commit `.env.local`. Without a key, you can still upload PDFs, view extracted text and previews, and edit context; the app will not create placeholder scripts.
@@ -31,3 +31,4 @@ The API key is read only by the server. Do not commit `.env.local`. Without a ke
 ## Checks
 
 Run `npm run typecheck` for TypeScript checks and `npm run build` for a production build.
+
